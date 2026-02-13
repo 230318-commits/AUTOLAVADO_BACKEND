@@ -1,5 +1,5 @@
-from fastapi import Fastapi
-app = Fastapi()
+from fastapi import FastAPI
+app = FastAPI()
 
 @app.get("/")
 async def read_root() -> dict[str, str]:
