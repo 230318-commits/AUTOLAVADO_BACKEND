@@ -15,5 +15,6 @@
     pylint main.py
     
     deactivate
-
+    
+py -m pip install python-multipart python-jose[cryptography] pymysql
 
